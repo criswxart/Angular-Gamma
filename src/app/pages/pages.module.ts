@@ -11,6 +11,10 @@ import { ProfesionalComponent } from './profesional/profesional.component';
 //paginations
 import {NgxPaginationModule} from 'ngx-pagination';
 //Datepicker
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDatepickerModule } from '@angular/material';
+import { MatMomentDateModule } from '@angular/material-moment-adapter';
+
 
 
 
@@ -27,7 +31,10 @@ import {NgxPaginationModule} from 'ngx-pagination';
         LayoutModule,
         CommonModule,
         FormsModule,
-        NgxPaginationModule
+        NgxPaginationModule,
+        BrowserAnimationsModule,
+        MatDatepickerModule, 
+        MatMomentDateModule
 
     ],
     exports: [
